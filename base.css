@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6F7FB;
+}
+
+form,
+input,
+select,
+option,
+textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin-top: 100px;
+}
+
+#topbar {
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+}
+
+#logo-wrapper {
+    display: flex;
+    margin-right: 36px;
+    align-items: center;
+}
+
+#logo-wrapper img {
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+#logo-text {
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0, 0, 0, .8);
+}
+
+.menu-item {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+    padding: 24px 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+}
+
+.menu-item.active {
+    color: #20B883;
+    border-bottom: 3px solid #20B883;
+}
+
+#logout-btn-wrapper {
+    margin-left: auto;
+}
+
+/*---------login Page css ----------------------------------------------------------------------*/
+
+#login-form {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px #ccc;
+}
+
+#login-form h1 {
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 0 24px;
+}
+
+.login-input {
+    width: 100%;
+    padding-top: 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-bottom: 16px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#login-btn {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    padding: 14px 36px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+/*-----------------------------------------------order css-------------------------------------------------------------------*/
+#wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+}
+
+#main-heading {
+    margin: 0;
+}
+
+#data-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0;
+}
+
+#filter-wrapper {
+    width: 180px;
+}
+
+#filter-wrapper h3 {
+    margin: 0;
+}
+
+#filter-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-checkbox {
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.filter-checkbox input {
+    margin-right: 12px;
+}
+
+#table-wrapper {
+    width: 100%;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table th,
+#data-table td {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+.table-row td {
+    background-color: #fff;
+    border-bottom: 4px solid #f6f7fb;
+}
+
+.primary-text {
+    color: rgba(0, 0, 0, .8);
+    font-weight: 500;
+}
+
+.secondary-text {
+    color: #8c8c8c;
+}
+
+
+/*-----------------------------------------------------product css---------------------------------------------------------------*/
+
+#wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+}
+
+#main-heading {
+    margin: 0;
+}
+
+#data-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0;
+}
+
+#filter-wrapper {
+    width: 180px;
+}
+
+#filter-wrapper h3 {
+    margin: 0;
+}
+
+#filter-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-checkbox {
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.filter-checkbox input {
+    margin-right: 12px;
+}
+
+#table-wrapper {
+    width: 100%;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table th,
+#data-table td {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+.table-row td {
+    background-color: #fff;
+    border-bottom: 4px solid #f6f7fb;
+}
+
+.table-row td:nth-child(4) {
+    min-width: 100px;
+}
+
+.primary-text {
+    color: rgba(0, 0, 0, .8);
+    font-weight: 500;
+}
+
+.secondary-text {
+    color: #8c8c8c;
+}
+
+/*--------------------------------------------------------------------users css-----------------------------------------------------*/
+
+#page-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+}
+
+#main-heading {
+    margin: 0;
+}
+
+#list-wrapper {
+    width: 100%;
+    padding: 24px 0;
+}
+
+#search-wrapper {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+#search-wrapper h3 {
+    margin: 0;
+}
+
+#search-box {
+    width: calc(100% - 100px);
+    padding: 12px 24px;
+    font-size: 15px;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin: 0 36px 0 0;
+    outline: none;
+}
+
+#reset-btn {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 14px 36px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #20B883;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#table-wrapper {
+    width: 100%;
+}
+
+#list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#list-table th,
+#list-table td {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+.table-row {}
+
+.table-row td {
+    background-color: #fff;
+    border-bottom: 4px solid #F6F7FB;
+}
+
+.primary-text {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+}
+
+.secondary-text {
+    color: #8c8c8c;
+}
